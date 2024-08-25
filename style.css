@@ -1,0 +1,44 @@
+body {
+    font-family: "Atkinson Hyperlegible", "Times New Roman", sans-serif;
+    color:rgb(0,0,0);
+    background-color: rgba(196, 226, 252, 0.5);
+}
+
+h1 {
+    background-color: rgba(251, 255, 15, 0.6);
+}
+
+div h2 {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.community-to-user {
+    background-color:rgba(31, 148, 202, 0.3);
+}
+
+.user-to-community {
+    background-color: rgba(31, 85, 202, 0.3);
+}
+
+.about-us {
+    background-color: rgba(31, 202, 151, 0.3);   
+}
+
+div li {
+    background-color: rgba(31, 148, 202, 0.1);    
+}
+
+
+
+/*
+Design Notes:
+
+~Font Choice~
+The intention here was to maximize accessibility.
+
+Sans Serif:
+    1. Sans Serif > Serif: https://accessibility.uncg.edu/make-content-accessible/design-elements/
+    2. Sans Serif > Serif: https://www.section508.gov/develop/fonts-typography/#:~:text=Typically%2C%20for%20people%20with%20low,for%20headings%20or%20other%20emphasis. 
+    3. Research inconclusive on Sans Serif vs Serif: https://www.siteimprove.com/glossary/accessible-fonts/
+
+*/

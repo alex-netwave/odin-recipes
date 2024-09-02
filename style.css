@@ -1,7 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: "Atkinson Hyperlegible", "Times New Roman", sans-serif;
     color:rgb(0,0,0);
-    background-color: rgba(196, 226, 252, 0.5);
+    background-color: rgba(176, 196, 222, 0.4);
+    background-image: url('./images/marble.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    width: 60vw;
+    margin: 0 auto;
 }
 
 h1 {
@@ -26,6 +42,14 @@ div h2 {
 
 div li {
     background-color: rgba(31, 148, 202, 0.1);    
+}
+
+.navbar {
+    height: 60vh;
+    background-image: url('./images/navbar_spoons_of_spice.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid black 1px;
 }
 
 

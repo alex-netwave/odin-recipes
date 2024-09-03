@@ -1,0 +1,12 @@
+    <div class="user-to-community">
+        <h2>Recipes to the Community</h2>
+        <p>Our platform is one built by the community, for the community.</p>
+        <p>There are many ways that you can help the community continue to thrive.</p>
+        <ul>
+            <li>Submit a recipe you love</li>
+            <li>Provide a reference that steered you towards a recipe</li>
+            <li>Become a mentor</li>
+            <li>Spread the word about the community</li>
+        </ul>
+        <p>If you have a way that you'd like to contribute that isn't listed above, then please feel free to send them to unitcircle641@gmail.com.</p>
+    </div>

@@ -20,9 +20,12 @@ body {
     margin: 0 auto;
 }
 
-h1 {
-    background-color: rgba(251, 255, 15, 0.6);
+.webtitle {
+    color: aliceblue;
+    margin: 30px;
+    font-size: 50px;
 }
+
 
 div h2 {
     background-color: rgba(0, 0, 0, 0.1);
@@ -44,14 +47,122 @@ div li {
     background-color: rgba(31, 148, 202, 0.1);    
 }
 
-.navbar {
-    height: 60vh;
+.header {
+    height: 50vh;
     background-image: url('./images/navbar_spoons_of_spice.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     border: solid black 1px;
 }
 
+.navbar {
+    height: 10vh;
+    width: 60vw;
+    margin-top: -90px;
+    padding-right: 100px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar-items {
+    height: 8vh;
+    width: 8vw;
+    color:aliceblue;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    float: right;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.navbar-items:hover {
+    background-color: rgba(192, 192, 192, 0.5);
+    color: rgb(255, 223, 40);
+    border: rgb(255, 223, 40) double;
+}
+
+
+.recipe-bar-background {
+    height: 50vh;
+    background-image: url('./images/cuttingboard.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid rgba(0, 0, 0, 0.3) 1px;
+}
+
+.recipe-bar {
+    height: 50vh;
+    width: 60vw;
+    padding: 10vh 8vh 15vh 8vh;
+    display: inline-block;
+    /*    overflow: hidden; */
+}
+
+.recipes-lead-in {
+    margin: -80px 0px 0px 0px;  
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-style: ridge;  
+    font-weight: bold;
+    padding: 0px;
+}
+
+.recipe-bar-item {
+    height: 30vh;
+    width: 15vw;
+    margin: 0 1vw;
+    color: aliceblue;
+    background-color: aliceblue;
+    border-radius: 10%;
+    display: inline-block;
+    overflow: hidden;
+    border: rgba(0, 0, 0, 0.5) solid 1px;
+    box-shadow: inset;
+    font-size: 21px;
+}
+
+.recipe-bar-head {
+    height: 8vh;
+    background-color:rgb(34, 88, 116); 
+    color: rgb(255, 223, 40);
+    padding: 30px 8px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.recipe-bar-body {
+    height: 22vh;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+#item1, #item2, #item3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.recipe-bar-item:hover {
+    transform: scale(1.05);
+    border: rgb(255, 223, 40) double;
+
+}
+
+#item1 {
+    background-image: url('./images/chicken_and_veggie_stir_fry.png');
+}
+
+#item2 {
+    background-image: url('./images/shrimp_linguine.png');
+}
+
+#item3 {
+    background-image: url('./images/sticky_pineapple_chicken.png');
+}
 
 
 /*
@@ -65,4 +176,8 @@ Sans Serif:
     2. Sans Serif > Serif: https://www.section508.gov/develop/fonts-typography/#:~:text=Typically%2C%20for%20people%20with%20low,for%20headings%20or%20other%20emphasis. 
     3. Research inconclusive on Sans Serif vs Serif: https://www.siteimprove.com/glossary/accessible-fonts/
 
+
+
+~Display Specification~
+I've used single-word syntax "inline-flex" for compatibility. See: https://developer.mozilla.org/en-US/docs/Web/CSS/display  
 */
